@@ -18,13 +18,13 @@ A simple, educational VM written in C for learning, experimentation, and fun.
 
 1. **Clone the repo:**
     ```bash
-    git clone https://github.com/yourusername/vm.git
-    cd vm
+    git clone https://github.com/yujaw/vmC.git
+    cd vmC
     ```
 
 2. **Compile the VM:**
     ```bash
-    gcc -o lc3vm vm.c
+    gcc -o lc3vm lc3.c
     ```
 
 3. **Run the VM with an LC3 image:**
@@ -36,9 +36,8 @@ A simple, educational VM written in C for learning, experimentation, and fun.
 
 ## 🧑‍💻 Usage
 
-- Add new instructions or modify behavior in `vm.c`
+- Add new instructions or modify behavior in `vmC.c`
 - Try out sample LC3 programs in the `examples/` folder
-- Read more about the architecture in the `docs/` folder
 
 ---
 
@@ -55,17 +54,5 @@ A simple, educational VM written in C for learning, experimentation, and fun.
 
 ---
 
-## 🤝 Contributing
-
-Contributions are welcome!  
-Open an issue or submit a pull request to get involved.
-
----
-
-## 📄 License
-
-Licensed under the MIT License.
-
----
-
-> Made with ❤️ for learning and exploration!
+> ℹ️
+[Write your own virtual machine tutorial by Justin Meiners and Ryan Pendleton](https://www.jmeiners.com/lc3-vm/)
